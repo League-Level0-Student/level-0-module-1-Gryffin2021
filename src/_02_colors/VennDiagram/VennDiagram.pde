@@ -1,1 +1,16 @@
 size(600,600);
+fill(255, 0, 0, 100);
+ellipse(300,300,200,200);
+fill(0, 255, 0, 100);
+ellipse(240,210,200,200);
+fill(0, 0, 255, 100);
+ellipse(360,210,200,200);
+fill(0, 0, 0, 255);
+textSize(20);
+text("Funny", 205, 100);
+fill(0, 0, 0, 255);
+textSize(20);
+text("Smart", 335, 100);
+fill(0, 0, 0, 255);
+textSize(20);
+text("Atheletic", 260, 420);
