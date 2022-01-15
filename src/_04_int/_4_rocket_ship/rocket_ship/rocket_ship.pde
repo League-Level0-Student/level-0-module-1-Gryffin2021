@@ -16,5 +16,27 @@ void draw() {
     ellipse(x, y + 95, 35, 35);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
+    if(keyCode == UP){
+     y-=5;
+     
+
+    }
+    if(keyCode == DOWN){
+     y+=5;
+     
+
+    }
+    if(keyCode == LEFT){
+     x-=5;
+     
+
+    }
+     if(keyCode == RIGHT){
+     x+=5;
+     
+
+    }
+    
+
 
 }
